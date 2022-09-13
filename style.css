@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #8ad6ed;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#buttCont {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+#newGame {
+    font-size: 1.3em;
+    padding: 3px;
+    margin: 5px;
+}
+#newGame:hover {
+    font-size: 1.5em;
+}
+
+#gridContainer {
+    display: grid;
+    width: 400px;
+    margin: auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+.it {
+    background-color: red;
+}
+
+#container {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    padding: 4px;
+}
+
+h3, h2 {
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+
+#rules {
+    text-align: center;
+    margin: 7px;
+    padding: 5px;
+}
+
+#anotherGame {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 3px;
+    display: none;
+    margin: auto;
+}
